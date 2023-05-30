@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7daf423eb25f8c14ab6c1bde00a85560, type: 3}
+  m_Name: Battle
+  m_EditorClassIdentifier: 
+  _wavesData:
+  - Events:
+    - Amount: 3
+      EventConfig: {fileID: 11400000, guid: c3e172a677fdeb34b861ebd51d2645a2, type: 2}
+    Duration: 15
+  - Events:
+    - Amount: 4
+      EventConfig: {fileID: 11400000, guid: b5cf33acff433514cb4323191a7f20fb, type: 2}
+    Duration: 20
+  - Events:
+    - Amount: 3
+      EventConfig: {fileID: 11400000, guid: c3e172a677fdeb34b861ebd51d2645a2, type: 2}
+    - Amount: 3
+      EventConfig: {fileID: 11400000, guid: b5cf33acff433514cb4323191a7f20fb, type: 2}
+    Duration: 25
+  - Events:
+    - Amount: 10
+      EventConfig: {fileID: 11400000, guid: c3e172a677fdeb34b861ebd51d2645a2, type: 2}
+    - Amount: 10
+      EventConfig: {fileID: 11400000, guid: b5cf33acff433514cb4323191a7f20fb, type: 2}
+    Duration: 20
